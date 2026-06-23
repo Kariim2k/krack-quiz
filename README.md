@@ -23,6 +23,9 @@ https://krack-quiz.vercel.app/
 - Authentication validation
 - Custom Krack Quiz branding and icon
 - Installable PWA support
+- Password visibility toggle
+- Timer pause and resume functionality
+- Logout system
 
 ---
 
@@ -47,18 +50,24 @@ quiz-app/
 │   └── manifest.json
 │
 ├── src/
+│   ├── assets/
+│   │   ├── typescript.svg
+│   │   └── vite.svg
+│   │
 │   ├── app.ts
 │   ├── auth.ts
+│   ├── counter.ts
 │   ├── data.ts
 │   ├── dom.ts
+│   ├── main.ts
 │   ├── quiz.ts
-│   ├── types.ts
-│   └── style.css
+│   ├── style.css
+│   └── types.ts
 │
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── tsconfig.json
+├── .gitignore
 └── README.md
-
-
 ```
